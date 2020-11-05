@@ -1,0 +1,220 @@
+﻿body {
+    padding-top: 90px;
+    padding-bottom: 20px;
+    background-image: url("../images/nc-bg-8.jpg");
+    background-size: cover;
+}
+
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgba(0,0,0,0.6);
+    margin-top: 40px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+max-width: 280px;
+}
+span.field-validation-error {
+    color: red;
+    font-weight: bold;
+}
+
+.verticalSpace {
+    margin-top: 5px;
+}
+
+.verticalSpacelvl2 {
+    margin-top: 10px;
+}
+
+.verticalSpacelvl3 {
+    margin-top: 20px;
+}
+
+.verticalSpacelvl4 {
+    margin-top: 30px;
+}
+
+
+/*Bootstrap Overrides*/
+.navbar-inverse {
+
+}
+
+    .navbar-inverse .navbar-nav > li > a {
+        color: #fff;
+    }
+
+    .navbar-inverse .navbar-brand {
+        color: #fff;
+    }
+
+
+    .navbar-inverse .notifications {
+        position: relative;
+    }
+
+        .navbar-inverse .notifications .badge {
+            position: absolute;
+            top: 8px;
+            right: 0px;
+            background-color: #a80a0a;
+        }
+
+
+body {
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    font-size: 17px;
+    /*padding: 20px 15px;*/
+    height: 40px;
+    border-radius: 9px;
+}
+
+.btn {
+    /*font-size: 17px;
+    padding: 7px 20px;*/
+    border-radius: 9px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+
+
+.hovercraft:hover {
+   
+    border-bottom: 2px solid #9f3d82;
+}
+
+.tournaments {
+list-style: none;
+}
+
+.tournaments > li {
+position: relative;
+margin-bottom: 50px;
+}
+
+    .tournaments > li .date {
+        background: #9f3d82;
+        color: white;
+        width: 60px;
+        text-align: center;
+        border-radius: 12%;
+    }
+
+.tournaments > li .month {
+text-transform: uppercase;
+font-size: 14px;
+font-weight: bold;
+padding: 2px 6px;
+}
+
+.tournaments > li .day {
+background: #f7f7f7;
+color: #333;
+font-size: 20px;
+padding: 6px 12px;
+}
+
+.tournaments > li .details {
+position: absolute;
+top: 0;
+left: 70px;
+}
+
+.tournaments > li .details .host  {
+
+    display: block;
+}
+.tournaments > li .details .title  {
+    font-weight: bolder;
+    display: block;
+}
+
+    .tournaments > li .details .venue  {
+    font-weight: bold;
+    display: block;
+}
+
+.tournaments > li .details .game {
+    font-size: 15px;
+}
+   
+.tournaments > li .actions {
+    font-size: 15px;
+    display: none;
+    padding: 10px;
+}
+
+.tournaments > li:hover .actions {
+    font-size: 15px;
+    display: block;
+}
+.popover-notifications .popover-content {
+    padding: 0;
+    color: black;
+    margin-left: 3px;
+}
+.popover-notifications ul.notifications {
+    list-style: none;
+    padding-left: 0;
+   
+}
+
+    .popover-notifications ul.notifications > li {
+        border-bottom: 1px solid #ddd;
+        padding: 10px 0;
+    }
+        .popover-notifications ul.notifications > li:last-child {
+            border-bottom: none;
+        }
+    .popover-notifications ul.notifications li .highlight{
+        font-weight: bold;
+    }
+
+#searchTours{
+    width: 300px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+
+    
+}
+
+.navbar-nav li a {
+    font-weight: 700;
+
+}
+
+    .navbar-nav li a :focus {
+        color: rgb(12, 193, 185);
+    }
+
+.popover-title {
+    color: black;
+}

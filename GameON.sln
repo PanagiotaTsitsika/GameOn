@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29926.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameON", "GameON\GameON.csproj", "{CF7D02E3-7903-4DEB-B7F3-BA0421233D9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF7D02E3-7903-4DEB-B7F3-BA0421233D9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF7D02E3-7903-4DEB-B7F3-BA0421233D9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF7D02E3-7903-4DEB-B7F3-BA0421233D9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF7D02E3-7903-4DEB-B7F3-BA0421233D9F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D777D126-ED24-4B3A-A4FE-76ECC48F2192}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 1
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/giorgosdimitroulias
+		SccProjectUniqueName0 = GameON\\GameON.csproj
+		SccProjectName0 = GameON
+		SccAuxPath0 = https://dev.azure.com/giorgosdimitroulias
+		SccLocalPath0 = GameON
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+EndGlobal
